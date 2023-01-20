@@ -4,7 +4,46 @@
 }
 .content{
     flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 .menu{
     flex: 2;
+}
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contentImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.edit{
+    display: flex;
+    gap: 5px;
+}
+.edit img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.contents h1{
+    font-size: 42px;
+    color: #333;
+}
+.contents p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+    color: #333;
 }
